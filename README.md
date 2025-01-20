@@ -23,62 +23,51 @@ An active internet connection.
 
 #Installation
 1. Clone or download this repository to your local machine:
-  git clone zachwambugu/github-user-activity
+  **git clone zachwambugu/github-user-activity**
 2. Navigate to the project directory:
   cd <project_directory>
 3. Ensure the script file github-user-activity.py exists in the directory.
 
 # Usage
 Run the script using Python:
-python github-user-activity.py
+```python github-user-activity.py```
 Enter the GitHub username when prompted:
 Enter the GitHub username: <username>
 
 The application will display the recent activity for the specified username, such as:
 
-Fetching activity for GitHub user: octocat...
+`Fetching activity for GitHub user: zachwambugu...
 Pushed 3 commits to zachwambugu/Hello-World
 Starred octocat/Hello-World
-Opened an issue in zachwambugu/Hello-World
+Opened an issue in zachwambugu/Hello-World`
 
 # Error Handling
 The application handles various errors gracefully:
 
-  Invalid Username:
+###Invalid Username:
   If the entered username does not exist on GitHub, you'll see:
-Error: User not found.
-API Rate Limit Exceeded:
+  Error: User not found.
+  
+###API Rate Limit Exceeded:
 If the GitHub API rate limit is exceeded, you'll see:
 Error: Rate limit exceeded. Try again later.
-Network Issues:
+
+###Network Issues:
 If there is a network connectivity issue, you'll see:
-Network Error: <specific_error_message>
+###Network Error: <specific_error_message>
 
-Contributing
-
+# Contributing
 Fork the repository.
-
 Create a feature branch:
-
 git checkout -b feature/your-feature-name
-
 Commit your changes:
-
 git commit -m "Add your message here"
-
 Push the branch:
-
 git push origin feature/your-feature-name
-
 Create a pull request.
-
-License
-
+## License
 This project is open-source and available under the MIT License.
-
-Acknowledgments
-
+# Acknowledgments
 GitHub API Documentation
-
 Python's standard library modules: urllib and json.
 
