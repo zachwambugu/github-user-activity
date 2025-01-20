@@ -54,6 +54,7 @@ def main():
     """
     Main function to handle CLI arguments and run the application.
     """
+    username ="octocat"
     if len(sys.argv) != 2:
         print("Usage: github-activity <username>")
         sys.exit(1)
