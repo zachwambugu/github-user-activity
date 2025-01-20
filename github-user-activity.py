@@ -2,6 +2,7 @@ import sys
 import urllib.request
 import json
 
+
 def fetch_github_activity(username):
     """
     Fetch recent GitHub activity for the given username.
@@ -54,7 +55,6 @@ def main():
     """
     Main function to handle CLI arguments and run the application.
     """
-    username ="octocat"
     if len(sys.argv) != 2:
         print("Usage: github-activity <username>")
         sys.exit(1)
