@@ -44,7 +44,7 @@ Opened an issue in zachwambugu/Hello-World`
 # Error Handling
 The application handles various errors gracefully:
 
-###I nvalid Username:
+### I nvalid Username:
   If the entered username does not exist on GitHub, you'll see:
   Error: User not found.
   
